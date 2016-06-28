@@ -1,0 +1,12 @@
+{
+  "name": "simple-react-starter",
+  "version": "1.0.0",
+  "description": "http://andrewhfarmer.com/build-your-own-starter/#1-git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
