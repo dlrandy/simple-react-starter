@@ -10,11 +10,11 @@ var config = {
 		filename: 'bundle.js',
 	},
 	module: {
-		loaders: [
+		loaders: [{
 			test: /\.js$/,
 			exclude: /node_modules/,
 			loaders: ['babel'],
-		]
+		}]
 	},
 	resolveLoaders: {
 		root: [
