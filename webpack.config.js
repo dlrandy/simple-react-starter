@@ -20,6 +20,11 @@ var config = {
 		root: [
 			path.join(__dirname, 'node_modules'),
 		]
+	},
+	resolve: {
+		root: [
+			path.join(__dirname, 'node_modules'),
+		]
 	}
 
 };

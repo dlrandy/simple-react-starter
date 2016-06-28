@@ -1,4 +1,4 @@
-import import React from 'react';
+import React from 'react';
 
 class Counter extends React.Component {
     constructor(props) {
@@ -14,7 +14,7 @@ class Counter extends React.Component {
         		onClick={() => {
         			this.setState({count: this.state.count + 1});
         		}}
-        	>
+        		>
         	Count: {this.state.count}
         	</button>
         );
